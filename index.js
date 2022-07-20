@@ -22,7 +22,7 @@ const logger = (req, res, next)=> {
   next();
 }
 const logger2 = (req, res, next)=> {
-  console.log("This is next middleware");
+  console.log("This is next middlewares");
   next();
 }
 
